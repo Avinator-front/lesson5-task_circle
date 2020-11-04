@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+.main-block {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+  top: 20%;
+}
+.circle1 {
+  width: calc(400px / 100 * 33.3);
+  height: calc(400px / 100 * 33.3);
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle2 {
+  width: calc(400px / 100 * 33.3);
+  height: calc(400px / 100 * 33.3);
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.circle3 {
+  width: calc(400px / 100 * 33.3);
+  height: calc(400px / 100 * 33.3);
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.circle4 {
+  width: calc(400px / 100 * 33.3);
+  height: calc(400px / 100 * 33.3);
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.circle1:hover {
+  background-color: royalblue;
+  z-index: 100;
+}
+.circle2:hover {
+  background-color: rgb(5, 37, 11);
+  z-index: 100;
+}
+.circle3:hover {
+  background-color: rgb(196, 115, 23);
+  z-index: 100;
+}
+.circle4:hover {
+  background-color: rgb(7, 105, 170);
+  z-index: 100;
+}
+.squard-blue {
+  width: 70%;
+  position: absolute;
+  height: 70%;
+  z-index: 10;
+  top: 15%;
+  left: 15%;
+  background-color: rgb(47, 179, 255);
+}
+.squard-blue:hover {
+  background-color: rgb(211, 35, 182);
+  z-index: 300;
+}
+.squard-yellow {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  border-radius: 10%;
+  background-color: rgb(255, 235, 57);
+  z-index: 200;
+  top: 30%;
+  left: 30%;
+}
+.squard-yellow:hover {
+  background-color: rgba(8, 43, 5, 0);
+}
